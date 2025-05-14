@@ -1,4 +1,5 @@
 .
+./.git
 ./.gitignore
 ./eslint.config.js
 ./index.html
@@ -7,11 +8,13 @@
 ./package.json
 ./project_structure.txt
 ./public
+./public/index.html
 ./public/vite.svg
 ./README.md
 ./src
 ./src/App.jsx
 ./src/components
+./src/components/ChatBot.jsx
 ./src/components/ContactForm.jsx
 ./src/components/Footer.jsx
 ./src/components/HeroSection.jsx

@@ -5,17 +5,17 @@ const benefits = [
   {
     icon: ShieldCheckIcon,
     title: 'Secure Transactions',
-    description: 'Your data and financial transactions are protected with enterprise-grade security',
+    description: 'Your data and financial transactions are protected with enterprise-grade security.',
   },
   {
     icon: BanknotesIcon,
     title: 'Best Market Value',
-    description: 'Our proprietary algorithm ensures you get the best possible price for your license',
+    description: 'Our proprietary algorithm ensures you get the best possible price for your license.',
   },
   {
     icon: ClockIcon,
     title: 'Fast Process',
-    description: 'Complete the entire process in minutes and receive payment within 24 hours',
+    description: 'Complete the entire process in minutes and receive payment within 24 hours.',
   },
 ]
 
@@ -28,10 +28,7 @@ const WhyChooseUs = () => {
         </h2>
         <div className="benefits-container">
           {benefits.map((benefit, index) => (
-            <div
-              key={index}
-              className="benefit-card"
-            >
+            <div key={index} className="benefit-card">
               <div className="benefit-icon">
                 <benefit.icon className="icon" />
               </div>
