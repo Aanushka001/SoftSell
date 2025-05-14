@@ -4,8 +4,7 @@
 
 ## Project Structure
 The project follows a modular structure to ensure maintainability and scalability. Below is the general project structure:
-
-.
+```.
 ├── .git/
 ├── .gitignore
 ├── eslint.config.js
@@ -38,11 +37,7 @@ The project follows a modular structure to ensure maintainability and scalabilit
 │ ├── Testimonials.css
 │ └── WhyChooseUs.css
 ├── vite.config.js
-
-markdown
-Copy
-Edit
-
+```
 ## Features
 
 - **Chatbot Integration**: Real-time AI assistant for user queries and software information.
@@ -60,27 +55,21 @@ Follow these steps to get the project up and running:
    cd SoftSell
 Install Dependencies:
 The project uses npm for package management. Install the required dependencies:
-
-bash
-Copy
-Edit
+```
 npm install
+```
 Start the Development Server:
 To run the app locally, start the Vite development server:
-
-bash
-Copy
-Edit
+```
 npm run dev
+```
 The app will be accessible at http://localhost:3000 in your browser.
 
 Configuration
 ESLint: The project uses eslint for linting. If you want to run linting checks, simply run:
-
-bash
-Copy
-Edit
+```
 npm run lint
+```
 Vite: The app uses Vite for fast build and hot-reload. You can customize your Vite config in vite.config.js.
 
 
